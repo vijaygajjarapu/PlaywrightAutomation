@@ -1,0 +1,3893 @@
+{
+  "config": {
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": "/Users/technoidentity/Documents/GitHub/playwrightautomation/utils/globalSetup.ts",
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/Users/technoidentity/Documents/GitHub/playwrightautomation/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/?(*.)@(spec|test).*"
+        ],
+        "timeout": 500000
+      }
+    ],
+    "reporter": [
+      [
+        "json",
+        {
+          "outputFile": "report.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "on-failure"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "configFile": "/Users/technoidentity/Documents/GitHub/playwrightautomation/playwright.config.ts",
+    "rootDir": "/Users/technoidentity/Documents/GitHub/playwrightautomation/tests",
+    "quiet": false,
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.30.0",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "api/comments/ezTag.spec.ts",
+      "file": "api/comments/ezTag.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Validate Comments EZ TAG End Points",
+          "file": "api/comments/ezTag.spec.ts",
+          "line": 22,
+          "column": 6,
+          "specs": [
+            {
+              "title": "GET EZ TAG Monthly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 737,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDEwLCJpYXQiOjE2Nzg4ODE0MTB9.YUfLHTEXeQodF9ecvrE8_CwduLl_20sqFsgDrkDVynA'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:50.296Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-comments-ezTag-Validate-Comments-EZ-TAG-End-Points-GET-EZ-TAG-Monthly-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1930525b71bc7dfb4c04-4cc551c15bc612c60be3",
+              "file": "api/comments/ezTag.spec.ts",
+              "line": 23,
+              "column": 7
+            },
+            {
+              "title": "GET LP Calendar Year",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 708,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDEwLCJpYXQiOjE2Nzg4ODE0MTB9.YUfLHTEXeQodF9ecvrE8_CwduLl_20sqFsgDrkDVynA'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:50.392Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-comments-ezTag-Validate-Comments-EZ-TAG-End-Points-GET-LP-Calendar-Year-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1930525b71bc7dfb4c04-fa2a66dffb38d65967b6",
+              "file": "api/comments/ezTag.spec.ts",
+              "line": 33,
+              "column": 7
+            },
+            {
+              "title": "GET LP Custom Report",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 772,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDEwLCJpYXQiOjE2Nzg4ODE0MTB9.YUfLHTEXeQodF9ecvrE8_CwduLl_20sqFsgDrkDVynA'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:50.312Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-comments-ezTag-Validate-Comments-EZ-TAG-End-Points-GET-LP-Custom-Report-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1930525b71bc7dfb4c04-ca03327cd7396eeb19a8",
+              "file": "api/comments/ezTag.spec.ts",
+              "line": 43,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "api/comments/financialPerformance.spec.ts",
+      "file": "api/comments/financialPerformance.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Validate Comments Financial Performance End Points",
+          "file": "api/comments/financialPerformance.spec.ts",
+          "line": 22,
+          "column": 6,
+          "specs": [
+            {
+              "title": "GET FP Fiscal Year",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 625,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDEwLCJpYXQiOjE2Nzg4ODE0MTB9.YUfLHTEXeQodF9ecvrE8_CwduLl_20sqFsgDrkDVynA'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:50.322Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-comments-financialPerformance-Validate-Com-d4b10-ncial-Performance-End-Points-GET-FP-Fiscal-Year-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3965a5504898d9fc94e1-90de0f9aae61c05a132c",
+              "file": "api/comments/financialPerformance.spec.ts",
+              "line": 23,
+              "column": 7
+            },
+            {
+              "title": "GET FP Calendar Year",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 697,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDExLCJpYXQiOjE2Nzg4ODE0MTF9.nL-GTDpYb9WQrpIpLQEntl8RKcL2bo7dRbTcXnyBolA'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:50.953Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-comments-financialPerformance-Validate-Com-bc0c1-ial-Performance-End-Points-GET-FP-Calendar-Year-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3965a5504898d9fc94e1-98ce275cb9a10f748e47",
+              "file": "api/comments/financialPerformance.spec.ts",
+              "line": 33,
+              "column": 7
+            },
+            {
+              "title": "GET FP Custom Report",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 535,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDExLCJpYXQiOjE2Nzg4ODE0MTF9.nL-GTDpYb9WQrpIpLQEntl8RKcL2bo7dRbTcXnyBolA'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:51.039Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-comments-financialPerformance-Validate-Com-a09a3-ial-Performance-End-Points-GET-FP-Custom-Report-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3965a5504898d9fc94e1-7f067c5f19445ce8df80",
+              "file": "api/comments/financialPerformance.spec.ts",
+              "line": 43,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "api/comments/licensePlateImageTransactions.spec.ts",
+      "file": "api/comments/licensePlateImageTransactions.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Validate Comments License Plate Image Transactions End Points",
+          "file": "api/comments/licensePlateImageTransactions.spec.ts",
+          "line": 22,
+          "column": 6,
+          "specs": [
+            {
+              "title": "GET LP Fiscal Year",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 1371,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDEyLCJpYXQiOjE2Nzg4ODE0MTJ9.TsDGK7KRmhSVHTc7hHeAQBb9JV4B0q1-ARB-3lTW1FY'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:51.089Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-comments-licensePlateImageTransactions-Val-adcc9-mage-Transactions-End-Points-GET-LP-Fiscal-Year-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3490ed44feeb42116827-22d6a985e768205be53b",
+              "file": "api/comments/licensePlateImageTransactions.spec.ts",
+              "line": 23,
+              "column": 7
+            },
+            {
+              "title": "GET LP Calendar Year",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 478,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDExLCJpYXQiOjE2Nzg4ODE0MTF9.nL-GTDpYb9WQrpIpLQEntl8RKcL2bo7dRbTcXnyBolA'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:51.110Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-comments-licensePlateImageTransactions-Val-15d77-ge-Transactions-End-Points-GET-LP-Calendar-Year-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3490ed44feeb42116827-b9c6837afa46c9294553",
+              "file": "api/comments/licensePlateImageTransactions.spec.ts",
+              "line": 33,
+              "column": 7
+            },
+            {
+              "title": "GET LP Custom Report",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 313,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDExLCJpYXQiOjE2Nzg4ODE0MTF9.nL-GTDpYb9WQrpIpLQEntl8RKcL2bo7dRbTcXnyBolA'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:51.579Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-comments-licensePlateImageTransactions-Val-45632-ge-Transactions-End-Points-GET-LP-Custom-Report-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3490ed44feeb42116827-a74e211fca2e830f71ed",
+              "file": "api/comments/licensePlateImageTransactions.spec.ts",
+              "line": 43,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "api/comments/safetyPerformance.spec.ts",
+      "file": "api/comments/safetyPerformance.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Validate Comments Service End Points",
+          "file": "api/comments/safetyPerformance.spec.ts",
+          "line": 22,
+          "column": 6,
+          "specs": [
+            {
+              "title": "GET Safety Monthly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 325,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDExLCJpYXQiOjE2Nzg4ODE0MTF9.nL-GTDpYb9WQrpIpLQEntl8RKcL2bo7dRbTcXnyBolA'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:51.602Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-comments-safetyPerformance-Validate-Comments-Service-End-Points-GET-Safety-Monthly-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1a879f652f3d4d8bd6cf-120f1fb4d07f37c71998",
+              "file": "api/comments/safetyPerformance.spec.ts",
+              "line": 23,
+              "column": 7
+            },
+            {
+              "title": "GET Safety Month Yearly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 304,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDExLCJpYXQiOjE2Nzg4ODE0MTF9.nL-GTDpYb9WQrpIpLQEntl8RKcL2bo7dRbTcXnyBolA'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:51.660Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-comments-safetyPerformance-Validate-Comments-Service-End-Points-GET-Safety-Month-Yearly-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1a879f652f3d4d8bd6cf-062fb67d538dad48dca2",
+              "file": "api/comments/safetyPerformance.spec.ts",
+              "line": 33,
+              "column": 7
+            },
+            {
+              "title": "GET Safety Custom Report",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 324,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDEyLCJpYXQiOjE2Nzg4ODE0MTJ9.TsDGK7KRmhSVHTc7hHeAQBb9JV4B0q1-ARB-3lTW1FY'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:51.898Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-comments-safetyPerformance-Validate-Comments-Service-End-Points-GET-Safety-Custom-Report-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1a879f652f3d4d8bd6cf-85704576d703825b8be3",
+              "file": "api/comments/safetyPerformance.spec.ts",
+              "line": 43,
+              "column": 7
+            },
+            {
+              "title": "GET Safety Weekly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 294,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDEyLCJpYXQiOjE2Nzg4ODE0MTJ9.TsDGK7KRmhSVHTc7hHeAQBb9JV4B0q1-ARB-3lTW1FY'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:51.929Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-comments-safetyPerformance-Validate-Comments-Service-End-Points-GET-Safety-Weekly-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1a879f652f3d4d8bd6cf-f310f14147820a89c5bd",
+              "file": "api/comments/safetyPerformance.spec.ts",
+              "line": 53,
+              "column": 7
+            },
+            {
+              "title": "GET Safety Daily",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 379,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDEyLCJpYXQiOjE2Nzg4ODE0MTJ9.TsDGK7KRmhSVHTc7hHeAQBb9JV4B0q1-ARB-3lTW1FY'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:51.965Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-comments-safetyPerformance-Validate-Comments-Service-End-Points-GET-Safety-Daily-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1a879f652f3d4d8bd6cf-426e7bdc7b0922ac173a",
+              "file": "api/comments/safetyPerformance.spec.ts",
+              "line": 63,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "api/comments/servicePerformance.spec.ts",
+      "file": "api/comments/servicePerformance.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Validate Comments Service Performance End Points",
+          "file": "api/comments/servicePerformance.spec.ts",
+          "line": 22,
+          "column": 6,
+          "specs": [
+            {
+              "title": "GET Service Monthly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 315,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDEyLCJpYXQiOjE2Nzg4ODE0MTJ9.TsDGK7KRmhSVHTc7hHeAQBb9JV4B0q1-ARB-3lTW1FY'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:52.227Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-comments-servicePerformance-Validate-Comments-Service-Performance-End-Points-GET-Service-Monthly-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c89f8d94fd5f05869a26-3d19412573722c36cdb2",
+              "file": "api/comments/servicePerformance.spec.ts",
+              "line": 23,
+              "column": 7
+            },
+            {
+              "title": "GET Service Month Yearly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 314,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDEyLCJpYXQiOjE2Nzg4ODE0MTJ9.TsDGK7KRmhSVHTc7hHeAQBb9JV4B0q1-ARB-3lTW1FY'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:52.228Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-comments-servicePerformance-Validate-Comme-5f0e9-Performance-End-Points-GET-Service-Month-Yearly-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c89f8d94fd5f05869a26-4d6ef3b3f082c3e2dea2",
+              "file": "api/comments/servicePerformance.spec.ts",
+              "line": 33,
+              "column": 7
+            },
+            {
+              "title": "GET Service Custom",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 397,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDEyLCJpYXQiOjE2Nzg4ODE0MTJ9.TsDGK7KRmhSVHTc7hHeAQBb9JV4B0q1-ARB-3lTW1FY'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:52.349Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-comments-servicePerformance-Validate-Comments-Service-Performance-End-Points-GET-Service-Custom-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c89f8d94fd5f05869a26-d7033e5faa451f44e994",
+              "file": "api/comments/servicePerformance.spec.ts",
+              "line": 43,
+              "column": 7
+            },
+            {
+              "title": "GET Service Weekly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 356,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDEyLCJpYXQiOjE2Nzg4ODE0MTJ9.TsDGK7KRmhSVHTc7hHeAQBb9JV4B0q1-ARB-3lTW1FY'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:52.464Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-comments-servicePerformance-Validate-Comments-Service-Performance-End-Points-GET-Service-Weekly-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c89f8d94fd5f05869a26-c3a58c4a35c2efa894ce",
+              "file": "api/comments/servicePerformance.spec.ts",
+              "line": 53,
+              "column": 7
+            },
+            {
+              "title": "GET Service Daily",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 405,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDEyLCJpYXQiOjE2Nzg4ODE0MTJ9.TsDGK7KRmhSVHTc7hHeAQBb9JV4B0q1-ARB-3lTW1FY'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:52.545Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-comments-servicePerformance-Validate-Comments-Service-Performance-End-Points-GET-Service-Daily-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "c89f8d94fd5f05869a26-2bd1f9af29766e2aa1e1",
+              "file": "api/comments/servicePerformance.spec.ts",
+              "line": 63,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "api/comments/transactions.spec.ts",
+      "file": "api/comments/transactions.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Validate Comments Transactions End Points",
+          "file": "api/comments/transactions.spec.ts",
+          "line": 22,
+          "column": 6,
+          "specs": [
+            {
+              "title": "GET Transactions FiscalYear Comments",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 407,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDEyLCJpYXQiOjE2Nzg4ODE0MTJ9.TsDGK7KRmhSVHTc7hHeAQBb9JV4B0q1-ARB-3lTW1FY'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:52.546Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-comments-transactions-Validate-Comments-Tr-88a12-End-Points-GET-Transactions-FiscalYear-Comments-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "51f66761b75026ffa009-c27c524c72e8d31bfd71",
+              "file": "api/comments/transactions.spec.ts",
+              "line": 23,
+              "column": 7
+            },
+            {
+              "title": "GET Transactions Monthly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 829,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDEzLCJpYXQiOjE2Nzg4ODE0MTN9.hyb1-Zjd0k-Fzms7SaMOt3FwisarBtqVzu4Uq2Jmrpw'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:52.751Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-comments-transactions-Validate-Comments-Transactions-End-Points-GET-Transactions-Monthly-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "51f66761b75026ffa009-c91a92116dd33da2ba7d",
+              "file": "api/comments/transactions.spec.ts",
+              "line": 33,
+              "column": 7
+            },
+            {
+              "title": "GET Transaction Calendar Yearly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 946,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDEzLCJpYXQiOjE2Nzg4ODE0MTN9.hyb1-Zjd0k-Fzms7SaMOt3FwisarBtqVzu4Uq2Jmrpw'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:52.827Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-comments-transactions-Validate-Comments-Transactions-End-Points-GET-Transaction-Calendar-Yearly-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "51f66761b75026ffa009-4dc836b34e44a2b73a7c",
+              "file": "api/comments/transactions.spec.ts",
+              "line": 43,
+              "column": 7
+            },
+            {
+              "title": "GET Transactions Month Yearly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 756,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDEzLCJpYXQiOjE2Nzg4ODE0MTN9.hyb1-Zjd0k-Fzms7SaMOt3FwisarBtqVzu4Uq2Jmrpw'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:52.953Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-comments-transactions-Validate-Comments-Transactions-End-Points-GET-Transactions-Month-Yearly-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "51f66761b75026ffa009-51df5c3b444036af8a9d",
+              "file": "api/comments/transactions.spec.ts",
+              "line": 53,
+              "column": 7
+            },
+            {
+              "title": "GET Transactions Custom Filter",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 785,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDEzLCJpYXQiOjE2Nzg4ODE0MTN9.hyb1-Zjd0k-Fzms7SaMOt3FwisarBtqVzu4Uq2Jmrpw'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:52.954Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-comments-transactions-Validate-Comments-Transactions-End-Points-GET-Transactions-Custom-Filter-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "51f66761b75026ffa009-a5419f52ffd95f186e71",
+              "file": "api/comments/transactions.spec.ts",
+              "line": 63,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "api/configuration/estimatedRevenue.spec.ts",
+      "file": "api/configuration/estimatedRevenue.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Validate Configuration License Plate End Points",
+          "file": "api/configuration/estimatedRevenue.spec.ts",
+          "line": 22,
+          "column": 6,
+          "specs": [
+            {
+              "title": "GET Estimated Revenue",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 479,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDEzLCJpYXQiOjE2Nzg4ODE0MTN9.hyb1-Zjd0k-Fzms7SaMOt3FwisarBtqVzu4Uq2Jmrpw'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:53.587Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-configuration-estimatedRevenue-Validate-Co-6ef03--License-Plate-End-Points-GET-Estimated-Revenue-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e9de33bd812038b3cab7-28e42ad2d3216046c041",
+              "file": "api/configuration/estimatedRevenue.spec.ts",
+              "line": 23,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "api/configuration/projectedRevenue.spec.ts",
+      "file": "api/configuration/projectedRevenue.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Validate Configuration Financial Performance End Points",
+          "file": "api/configuration/projectedRevenue.spec.ts",
+          "line": 22,
+          "column": 6,
+          "specs": [
+            {
+              "title": "GET Projected Revenue",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 310,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDEzLCJpYXQiOjE2Nzg4ODE0MTN9.hyb1-Zjd0k-Fzms7SaMOt3FwisarBtqVzu4Uq2Jmrpw'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:53.711Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-configuration-projectedRevenue-Validate-Co-9c5ee-al-Performance-End-Points-GET-Projected-Revenue-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d3a166d2cf5156469da5-b519e1a7d03b011508e4",
+              "file": "api/configuration/projectedRevenue.spec.ts",
+              "line": 23,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "api/ezTag.spec.ts",
+      "file": "api/ezTag.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Validate EZ Tags End Points",
+          "file": "api/ezTag.spec.ts",
+          "line": 22,
+          "column": 6,
+          "specs": [
+            {
+              "title": "GET EZ - Monthly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 274,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDEzLCJpYXQiOjE2Nzg4ODE0MTN9.hyb1-Zjd0k-Fzms7SaMOt3FwisarBtqVzu4Uq2Jmrpw'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:53.742Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-ezTag-Validate-EZ-Tags-End-Points-GET-EZ---Monthly-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "30ce356ee6a09ef17b54-70f2829ee83d5bda486e",
+              "file": "api/ezTag.spec.ts",
+              "line": 23,
+              "column": 7
+            },
+            {
+              "title": "GET EZ - Weekly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 270,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDEzLCJpYXQiOjE2Nzg4ODE0MTN9.hyb1-Zjd0k-Fzms7SaMOt3FwisarBtqVzu4Uq2Jmrpw'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:53.779Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-ezTag-Validate-EZ-Tags-End-Points-GET-EZ---Weekly-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "30ce356ee6a09ef17b54-2be958e947808895631a",
+              "file": "api/ezTag.spec.ts",
+              "line": 33,
+              "column": 7
+            },
+            {
+              "title": "GET EZ - Daily",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 266,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDE0LCJpYXQiOjE2Nzg4ODE0MTR9.tAuGI-DKUU6Jhp6o19O33AzsxplgqoGlZqgZA7ituLg'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:54.018Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-ezTag-Validate-EZ-Tags-End-Points-GET-EZ---Daily-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "30ce356ee6a09ef17b54-f77f68ab14416c610a0d",
+              "file": "api/ezTag.spec.ts",
+              "line": 43,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "api/financialPerformance/revenue.spec.ts",
+      "file": "api/financialPerformance/revenue.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Validate Financial Performance End Points - Revenue",
+          "file": "api/financialPerformance/revenue.spec.ts",
+          "line": 22,
+          "column": 6,
+          "specs": [
+            {
+              "title": "GET FP Fiscal Year Filter",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 312,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDE0LCJpYXQiOjE2Nzg4ODE0MTR9.tAuGI-DKUU6Jhp6o19O33AzsxplgqoGlZqgZA7ituLg'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:54.029Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-financialPerformance-revenue-Validate-Fina-fdd64--End-Points---Revenue-GET-FP-Fiscal-Year-Filter-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "ef0554349d51dfb44abf-59b613d705363e5b6a6e",
+              "file": "api/financialPerformance/revenue.spec.ts",
+              "line": 23,
+              "column": 7
+            },
+            {
+              "title": "GET FP Yearly Filter",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 315,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDE0LCJpYXQiOjE2Nzg4ODE0MTR9.tAuGI-DKUU6Jhp6o19O33AzsxplgqoGlZqgZA7ituLg'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:54.051Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-financialPerformance-revenue-Validate-Fina-d2375-mance-End-Points---Revenue-GET-FP-Yearly-Filter-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "ef0554349d51dfb44abf-bcc0c0f051dcd6f69c28",
+              "file": "api/financialPerformance/revenue.spec.ts",
+              "line": 33,
+              "column": 7
+            },
+            {
+              "title": "GET FP Custom Filter",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 315,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDE0LCJpYXQiOjE2Nzg4ODE0MTR9.tAuGI-DKUU6Jhp6o19O33AzsxplgqoGlZqgZA7ituLg'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:54.071Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-financialPerformance-revenue-Validate-Fina-c324e-mance-End-Points---Revenue-GET-FP-Custom-Filter-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "ef0554349d51dfb44abf-07dcffb431752275c94a",
+              "file": "api/financialPerformance/revenue.spec.ts",
+              "line": 43,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "api/financialPerformance/transactions.spec.ts",
+      "file": "api/financialPerformance/transactions.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Validate Financial Performance End Points - Revenue",
+          "file": "api/financialPerformance/transactions.spec.ts",
+          "line": 22,
+          "column": 6,
+          "specs": [
+            {
+              "title": "GET FP Fiscal Year Filter",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 257,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDE0LCJpYXQiOjE2Nzg4ODE0MTR9.tAuGI-DKUU6Jhp6o19O33AzsxplgqoGlZqgZA7ituLg'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:54.288Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-financialPerformance-transactions-Validate-d0157--End-Points---Revenue-GET-FP-Fiscal-Year-Filter-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "bbee48519fe5ac23a04b-59ee5702a8ec618e10b6",
+              "file": "api/financialPerformance/transactions.spec.ts",
+              "line": 23,
+              "column": 7
+            },
+            {
+              "title": "GET FP Yearly Filter",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 297,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDE0LCJpYXQiOjE2Nzg4ODE0MTR9.tAuGI-DKUU6Jhp6o19O33AzsxplgqoGlZqgZA7ituLg'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:54.344Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-financialPerformance-transactions-Validate-8ff91-mance-End-Points---Revenue-GET-FP-Yearly-Filter-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "bbee48519fe5ac23a04b-1f345e575913f528c694",
+              "file": "api/financialPerformance/transactions.spec.ts",
+              "line": 33,
+              "column": 7
+            },
+            {
+              "title": "GET FP Custom Filter",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 272,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDE0LCJpYXQiOjE2Nzg4ODE0MTR9.tAuGI-DKUU6Jhp6o19O33AzsxplgqoGlZqgZA7ituLg'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:54.369Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-financialPerformance-transactions-Validate-5a3fb-mance-End-Points---Revenue-GET-FP-Custom-Filter-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "bbee48519fe5ac23a04b-2d2c8c51cb3a083dde2f",
+              "file": "api/financialPerformance/transactions.spec.ts",
+              "line": 43,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "api/licensePlate.spec.ts",
+      "file": "api/licensePlate.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Validate License Plate End Points",
+          "file": "api/licensePlate.spec.ts",
+          "line": 22,
+          "column": 6,
+          "specs": [
+            {
+              "title": "GET LP Fiscal Year Filter",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 296,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDE0LCJpYXQiOjE2Nzg4ODE0MTR9.tAuGI-DKUU6Jhp6o19O33AzsxplgqoGlZqgZA7ituLg'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:54.389Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-licensePlate-Validate-License-Plate-End-Points-GET-LP-Fiscal-Year-Filter-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d38637adaeb4a699f1f0-73be381ba543588498a1",
+              "file": "api/licensePlate.spec.ts",
+              "line": 23,
+              "column": 7
+            },
+            {
+              "title": "GET LP Yearly Filter",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 319,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDE0LCJpYXQiOjE2Nzg4ODE0MTR9.tAuGI-DKUU6Jhp6o19O33AzsxplgqoGlZqgZA7ituLg'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:54.549Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-licensePlate-Validate-License-Plate-End-Points-GET-LP-Yearly-Filter-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d38637adaeb4a699f1f0-d76032a98c8c64d4df3f",
+              "file": "api/licensePlate.spec.ts",
+              "line": 33,
+              "column": 7
+            },
+            {
+              "title": "GET LP Custom Filter",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 335,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDE0LCJpYXQiOjE2Nzg4ODE0MTR9.tAuGI-DKUU6Jhp6o19O33AzsxplgqoGlZqgZA7ituLg'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:54.644Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-licensePlate-Validate-License-Plate-End-Points-GET-LP-Custom-Filter-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "d38637adaeb4a699f1f0-986b344e37eddf8e055d",
+              "file": "api/licensePlate.spec.ts",
+              "line": 43,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "api/safetyPerformance/dwiDui.spec.ts",
+      "file": "api/safetyPerformance/dwiDui.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Validate Safety Performance End Points - DWI/DUI Arrests",
+          "file": "api/safetyPerformance/dwiDui.spec.ts",
+          "line": 22,
+          "column": 6,
+          "specs": [
+            {
+              "title": "GET DWI/DUI Arrests Monthly Filter",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 1681,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDE0LCJpYXQiOjE2Nzg4ODE0MTR9.tAuGI-DKUU6Jhp6o19O33AzsxplgqoGlZqgZA7ituLg'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:54.644Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-safetyPerformance-dwiDui-Validate-Safety-P-c7326--DUI-Arrests-GET-DWI-DUI-Arrests-Monthly-Filter-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "702fcac9dcb3377704d3-f8d5d81bc6fc83bca4d9",
+              "file": "api/safetyPerformance/dwiDui.spec.ts",
+              "line": 23,
+              "column": 7
+            },
+            {
+              "title": "GET DWI/DUI Arrests Monthl Yearly Filter",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 1634,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDE0LCJpYXQiOjE2Nzg4ODE0MTR9.tAuGI-DKUU6Jhp6o19O33AzsxplgqoGlZqgZA7ituLg'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:54.689Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-safetyPerformance-dwiDui-Validate-Safety-P-95d00-rrests-GET-DWI-DUI-Arrests-Monthl-Yearly-Filter-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "702fcac9dcb3377704d3-d0b571b8e530ef498ca7",
+              "file": "api/safetyPerformance/dwiDui.spec.ts",
+              "line": 33,
+              "column": 7
+            },
+            {
+              "title": "GET DWI/DUI Arrests Weekly Filter",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 1453,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDE1LCJpYXQiOjE2Nzg4ODE0MTV9.kkuSR-WMWaMZKI-p8-H22VTr8N1x7oRXcHDlHTqdWp8'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:54.871Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-safetyPerformance-dwiDui-Validate-Safety-P-9dfd2-I-DUI-Arrests-GET-DWI-DUI-Arrests-Weekly-Filter-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "702fcac9dcb3377704d3-113387a14c063bfed591",
+              "file": "api/safetyPerformance/dwiDui.spec.ts",
+              "line": 43,
+              "column": 7
+            },
+            {
+              "title": "GET DWI/DUI Arrests Daily Filter",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 1340,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDE1LCJpYXQiOjE2Nzg4ODE0MTV9.kkuSR-WMWaMZKI-p8-H22VTr8N1x7oRXcHDlHTqdWp8'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:54.981Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-safetyPerformance-dwiDui-Validate-Safety-P-88faa-WI-DUI-Arrests-GET-DWI-DUI-Arrests-Daily-Filter-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "702fcac9dcb3377704d3-9ef74ca78e3877555e21",
+              "file": "api/safetyPerformance/dwiDui.spec.ts",
+              "line": 53,
+              "column": 7
+            },
+            {
+              "title": "GET DWI/DUI Arrests Custom Filter",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 856,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDE2LCJpYXQiOjE2Nzg4ODE0MTZ9.vkYc4eYeaIocloA0mM6C88vZNnjRTiNoTmhfsAD8C5c'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:56.323Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-safetyPerformance-dwiDui-Validate-Safety-P-26734-I-DUI-Arrests-GET-DWI-DUI-Arrests-Custom-Filter-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "702fcac9dcb3377704d3-6307d1c223af57cbd31d",
+              "file": "api/safetyPerformance/dwiDui.spec.ts",
+              "line": 63,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "api/safetyPerformance/responseClearanceTime.spec.ts",
+      "file": "api/safetyPerformance/responseClearanceTime.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Validate Safety Performance End Points - Response Clearance Times",
+          "file": "api/safetyPerformance/responseClearanceTime.spec.ts",
+          "line": 22,
+          "column": 6,
+          "specs": [
+            {
+              "title": "GET Clearance Time Monthly Filter",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 421,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDE2LCJpYXQiOjE2Nzg4ODE0MTZ9.vkYc4eYeaIocloA0mM6C88vZNnjRTiNoTmhfsAD8C5c'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:56.330Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-safetyPerformance-responseClearanceTime-Va-00425-earance-Times-GET-Clearance-Time-Monthly-Filter-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3fe73ef86bfc2a80ad8f-ef9849b4c828d47cac5b",
+              "file": "api/safetyPerformance/responseClearanceTime.spec.ts",
+              "line": 23,
+              "column": 7
+            },
+            {
+              "title": "GET Clearance Time Month Yearly Filter",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 442,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDE2LCJpYXQiOjE2Nzg4ODE0MTZ9.vkYc4eYeaIocloA0mM6C88vZNnjRTiNoTmhfsAD8C5c'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:56.330Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-safetyPerformance-responseClearanceTime-Va-779be-ce-Times-GET-Clearance-Time-Month-Yearly-Filter-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3fe73ef86bfc2a80ad8f-39e2304bbc2123d20785",
+              "file": "api/safetyPerformance/responseClearanceTime.spec.ts",
+              "line": 33,
+              "column": 7
+            },
+            {
+              "title": "GET Clearance Time Weekly Filter",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 361,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDE2LCJpYXQiOjE2Nzg4ODE0MTZ9.vkYc4eYeaIocloA0mM6C88vZNnjRTiNoTmhfsAD8C5c'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:56.336Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-safetyPerformance-responseClearanceTime-Va-f69a3-learance-Times-GET-Clearance-Time-Weekly-Filter-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3fe73ef86bfc2a80ad8f-b6389bbe4f02ae6a28c6",
+              "file": "api/safetyPerformance/responseClearanceTime.spec.ts",
+              "line": 43,
+              "column": 7
+            },
+            {
+              "title": "GET Clearance Time Daily Filter",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 320,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDE2LCJpYXQiOjE2Nzg4ODE0MTZ9.vkYc4eYeaIocloA0mM6C88vZNnjRTiNoTmhfsAD8C5c'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:56.699Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-safetyPerformance-responseClearanceTime-Va-24f0b-Clearance-Times-GET-Clearance-Time-Daily-Filter-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3fe73ef86bfc2a80ad8f-27d605a7f9b851995f70",
+              "file": "api/safetyPerformance/responseClearanceTime.spec.ts",
+              "line": 53,
+              "column": 7
+            },
+            {
+              "title": "GET Clearance Time Custom Filter",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 309,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDE2LCJpYXQiOjE2Nzg4ODE0MTZ9.vkYc4eYeaIocloA0mM6C88vZNnjRTiNoTmhfsAD8C5c'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:56.751Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-safetyPerformance-responseClearanceTime-Va-e7d62-learance-Times-GET-Clearance-Time-Custom-Filter-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "3fe73ef86bfc2a80ad8f-08c39d6f11a7b64bb665",
+              "file": "api/safetyPerformance/responseClearanceTime.spec.ts",
+              "line": 63,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "api/servicePerformance.spec.ts",
+      "file": "api/servicePerformance.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Validate Service Performance End Points",
+          "file": "api/servicePerformance.spec.ts",
+          "line": 21,
+          "column": 6,
+          "specs": [
+            {
+              "title": "GET Service Monthly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 378,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDE2LCJpYXQiOjE2Nzg4ODE0MTZ9.vkYc4eYeaIocloA0mM6C88vZNnjRTiNoTmhfsAD8C5c'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:56.775Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-servicePerformance-Validate-Service-Performance-End-Points-GET-Service-Monthly-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1118e2ca1f8a8dd89472-8ebc7c200baa3a6fe8d0",
+              "file": "api/servicePerformance.spec.ts",
+              "line": 22,
+              "column": 7
+            },
+            {
+              "title": "GET Service Yearly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 1172,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDE3LCJpYXQiOjE2Nzg4ODE0MTd9.gyM_wRI3D-9t1SdyBiNKnIU5HJ53tW6Bw5RffWB3UUE'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:57.021Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-servicePerformance-Validate-Service-Performance-End-Points-GET-Service-Yearly-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1118e2ca1f8a8dd89472-5679f5ea935f01bea67d",
+              "file": "api/servicePerformance.spec.ts",
+              "line": 32,
+              "column": 7
+            },
+            {
+              "title": "GET Service Weekly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 1105,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDE3LCJpYXQiOjE2Nzg4ODE0MTd9.gyM_wRI3D-9t1SdyBiNKnIU5HJ53tW6Bw5RffWB3UUE'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:57.064Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-servicePerformance-Validate-Service-Performance-End-Points-GET-Service-Weekly-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1118e2ca1f8a8dd89472-8520077e97a6d10826d9",
+              "file": "api/servicePerformance.spec.ts",
+              "line": 42,
+              "column": 7
+            },
+            {
+              "title": "GET Service Daily Filter",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 1014,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDE3LCJpYXQiOjE2Nzg4ODE0MTd9.gyM_wRI3D-9t1SdyBiNKnIU5HJ53tW6Bw5RffWB3UUE'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:57.154Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-servicePerformance-Validate-Service-Performance-End-Points-GET-Service-Daily-Filter-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1118e2ca1f8a8dd89472-80398eee295fc0c072bd",
+              "file": "api/servicePerformance.spec.ts",
+              "line": 52,
+              "column": 7
+            },
+            {
+              "title": "GET Service Custom Filter",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 1029,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDE3LCJpYXQiOjE2Nzg4ODE0MTd9.gyM_wRI3D-9t1SdyBiNKnIU5HJ53tW6Bw5RffWB3UUE'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:57.184Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-servicePerformance-Validate-Service-Performance-End-Points-GET-Service-Custom-Filter-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1118e2ca1f8a8dd89472-fbabb6cbb0af320b3b28",
+              "file": "api/servicePerformance.spec.ts",
+              "line": 62,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "api/transactionsAndRevenueLifecycle.spec.ts",
+      "file": "api/transactionsAndRevenueLifecycle.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Validate Transactions and Revenue Lifecycle End Points",
+          "file": "api/transactionsAndRevenueLifecycle.spec.ts",
+          "line": 22,
+          "column": 6,
+          "specs": [
+            {
+              "title": "GET Transactions Fiscal Filter",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 320,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDE4LCJpYXQiOjE2Nzg4ODE0MTh9.mlcl8XRniRe-LBWRfEO_WIGd0nIGfTouqN_9mtPEkMk'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:58.173Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-transactionsAndRevenueLifecycle-Validate-T-bd826-cycle-End-Points-GET-Transactions-Fiscal-Filter-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0ec8839ee24b2bfcdba8-8840f18d905a619170ee",
+              "file": "api/transactionsAndRevenueLifecycle.spec.ts",
+              "line": 23,
+              "column": 7
+            },
+            {
+              "title": "GET Transactions Monthly Filter",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "failed",
+                      "duration": 30038,
+                      "error": {
+                        "message": "apiRequestContext.post: Connection timeout\n=========================== logs ===========================\n→ POST https://hctra-dashboard.devti.in:8050/authenticate\n  user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.5481.38 Safari/537.36\n  accept: */*\n  accept-encoding: gzip,deflate,br\n  content-type: application/json\n  content-length: 44\n============================================================",
+                        "stack": "apiRequestContext.post: Connection timeout\n=========================== logs ===========================\n→ POST https://hctra-dashboard.devti.in:8050/authenticate\n  user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.5481.38 Safari/537.36\n  accept: */*\n  accept-encoding: gzip,deflate,br\n  content-type: application/json\n  content-length: 44\n============================================================\n    at /Users/technoidentity/Documents/GitHub/playwrightautomation/tests/api/transactionsAndRevenueLifecycle.spec.ts:8:28"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/technoidentity/Documents/GitHub/playwrightautomation/tests/api/transactionsAndRevenueLifecycle.spec.ts",
+                            "column": 28,
+                            "line": 8
+                          },
+                          "message": "apiRequestContext.post: Connection timeout\n=========================== logs ===========================\n→ POST https://hctra-dashboard.devti.in:8050/authenticate\n  user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.5481.38 Safari/537.36\n  accept: */*\n  accept-encoding: gzip,deflate,br\n  content-type: application/json\n  content-length: 44\n============================================================\n\n\u001b[90m   at \u001b[39mapi/transactionsAndRevenueLifecycle.spec.ts:8\n\n\u001b[0m \u001b[90m  6 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  7 |\u001b[39m test\u001b[33m.\u001b[39mbeforeEach(\u001b[36masync\u001b[39m ({ request }\u001b[33m,\u001b[39m testInfo) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  8 |\u001b[39m   response \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m request\u001b[33m.\u001b[39mpost(\u001b[32m`${ENV.BASE_API_URL}/authenticate  `\u001b[39m\u001b[33m,\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                            \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  9 |\u001b[39m     data\u001b[33m:\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m 10 |\u001b[39m       username\u001b[33m:\u001b[39m \u001b[32m\"user\"\u001b[39m\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 11 |\u001b[39m       password\u001b[33m:\u001b[39m \u001b[32m\"password123\"\u001b[39m\u001b[0m\n\n\u001b[2m    at /Users/technoidentity/Documents/GitHub/playwrightautomation/tests/api/transactionsAndRevenueLifecycle.spec.ts:8:28\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:58.176Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-transactionsAndRevenueLifecycle-Validate-T-4886a-ycle-End-Points-GET-Transactions-Monthly-Filter-chromium/trace.zip"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/technoidentity/Documents/GitHub/playwrightautomation/tests/api/transactionsAndRevenueLifecycle.spec.ts",
+                        "column": 28,
+                        "line": 8
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "0ec8839ee24b2bfcdba8-16cbd1040d2df4f21256",
+              "file": "api/transactionsAndRevenueLifecycle.spec.ts",
+              "line": 33,
+              "column": 7
+            },
+            {
+              "title": "GET Transactions Yearly Report",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 354,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDE4LCJpYXQiOjE2Nzg4ODE0MTh9.mlcl8XRniRe-LBWRfEO_WIGd0nIGfTouqN_9mtPEkMk'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:58.197Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-transactionsAndRevenueLifecycle-Validate-T-ce87c-cycle-End-Points-GET-Transactions-Yearly-Report-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0ec8839ee24b2bfcdba8-ffc4638b8f388edd0c4f",
+              "file": "api/transactionsAndRevenueLifecycle.spec.ts",
+              "line": 43,
+              "column": 7
+            },
+            {
+              "title": "GET Transactions Month Yearly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 275,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDE4LCJpYXQiOjE2Nzg4ODE0MTh9.mlcl8XRniRe-LBWRfEO_WIGd0nIGfTouqN_9mtPEkMk'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:58.218Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-transactionsAndRevenueLifecycle-Validate-T-4807e-ecycle-End-Points-GET-Transactions-Month-Yearly-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0ec8839ee24b2bfcdba8-27e34182a4d40e717b4f",
+              "file": "api/transactionsAndRevenueLifecycle.spec.ts",
+              "line": 53,
+              "column": 7
+            },
+            {
+              "title": "GET Transactions Custom Filter",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 309,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDE4LCJpYXQiOjE2Nzg4ODE0MTh9.mlcl8XRniRe-LBWRfEO_WIGd0nIGfTouqN_9mtPEkMk'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:58.493Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-transactionsAndRevenueLifecycle-Validate-T-de3dc-cycle-End-Points-GET-Transactions-Custom-Filter-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "0ec8839ee24b2bfcdba8-650572709d1f36e00a38",
+              "file": "api/transactionsAndRevenueLifecycle.spec.ts",
+              "line": 63,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "api/userDashboard.spec.ts",
+      "file": "api/userDashboard.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Validate User Dashboard End Points",
+          "file": "api/userDashboard.spec.ts",
+          "line": 22,
+          "column": 6,
+          "specs": [
+            {
+              "title": "GET Safety Performance",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 716,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDE4LCJpYXQiOjE2Nzg4ODE0MTh9.mlcl8XRniRe-LBWRfEO_WIGd0nIGfTouqN_9mtPEkMk'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:58.497Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-userDashboard-Validate-User-Dashboard-End-Points-GET-Safety-Performance-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "28c07135d3fb78e64c18-645234f32d2035b07741",
+              "file": "api/userDashboard.spec.ts",
+              "line": 23,
+              "column": 7
+            },
+            {
+              "title": "GET Transactions-Revenue",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 321,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDE4LCJpYXQiOjE2Nzg4ODE0MTh9.mlcl8XRniRe-LBWRfEO_WIGd0nIGfTouqN_9mtPEkMk'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:58.555Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-userDashboard-Validate-User-Dashboard-End-Points-GET-Transactions-Revenue-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "28c07135d3fb78e64c18-f85f4044a3ee5cbf8c88",
+              "file": "api/userDashboard.spec.ts",
+              "line": 33,
+              "column": 7
+            },
+            {
+              "title": "GET Safety-EZ Tag",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 596,
+                      "errors": [],
+                      "stdout": [
+                        {
+                          "text": "{\n  username: \u001b[32m'user'\u001b[39m,\n  name: \u001b[32m'User'\u001b[39m,\n  role: [ \u001b[32m'Admin'\u001b[39m ],\n  token: \u001b[32m'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyIiwiZXhwIjoxNjc4ODk5NDE5LCJpYXQiOjE2Nzg4ODE0MTl9.E2Ct9BGni1EZJjMQ7mXjy2wNsnt4KenyA6OPe9lEKrM'\u001b[39m\n}\n"
+                        }
+                      ],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:58.806Z",
+                      "attachments": [
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/api-userDashboard-Validate-User-Dashboard-End-Points-GET-Safety-EZ-Tag-chromium/trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "28c07135d3fb78e64c18-2d9cf5f42c4615b17f29",
+              "file": "api/userDashboard.spec.ts",
+              "line": 43,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ui/licensePlate.spec.ts",
+      "file": "ui/licensePlate.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Verify",
+          "file": "ui/licensePlate.spec.ts",
+          "line": 10,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Transactions History",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 10140,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:58.883Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/ui-licensePlate-Verify-Transactions-History-chromium/video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/ui-licensePlate-Verify-Transactions-History-chromium/trace.zip"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/ui-licensePlate-Verify-Transactions-History-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "160da2663e1129030661-ca9c035ecb651d6cf685",
+              "file": "ui/licensePlate.spec.ts",
+              "line": 11,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ui/sumOfTransactions.spec.ts",
+      "file": "ui/sumOfTransactions.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Verifying sum of Transactions for License Plate and EZ Tag and Tallying it against the Total Transactions present below the dashboard Title",
+          "file": "ui/sumOfTransactions.spec.ts",
+          "line": 10,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Verify the Sum of Transactions for License Plate and EZ Tag and compare with Total transactions in dashboard",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 10242,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:59.218Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/ui-sumOfTransactions-Verifying-sum-of-Transact-9704e-nd-compare-with-Total-transactions-in-dashboard-chromium/video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/ui-sumOfTransactions-Verifying-sum-of-Transact-9704e-nd-compare-with-Total-transactions-in-dashboard-chromium/trace.zip"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/ui-sumOfTransactions-Verifying-sum-of-Transact-9704e-nd-compare-with-Total-transactions-in-dashboard-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "01d07a9e65e71079b3e8-94b7fcdc19e3b22193e4",
+              "file": "ui/sumOfTransactions.spec.ts",
+              "line": 12,
+              "column": 7
+            },
+            {
+              "title": "Verify the Sum of Revenue for License Plate and EZ Tag and compare with Total revenue in dashboard",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "failed",
+                      "duration": 78515,
+                      "error": {
+                        "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m()\u001b[22m\nCall log:\n  \u001b[2m- expect.toBeVisible with timeout 50000ms\u001b[22m\n\u001b[2m  - waiting for locator('h2.sub-header').filter({ hasText: 'NaN' })\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  - waiting for locator('h2.sub-header').filter({ hasText: 'NaN' })\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m()\u001b[22m\nCall log:\n  \u001b[2m- expect.toBeVisible with timeout 50000ms\u001b[22m\n\u001b[2m  - waiting for locator('h2.sub-header').filter({ hasText: 'NaN' })\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  - waiting for locator('h2.sub-header').filter({ hasText: 'NaN' })\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\n    at /Users/technoidentity/Documents/GitHub/playwrightautomation/tests/ui/sumOfTransactions.spec.ts:46:67"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/technoidentity/Documents/GitHub/playwrightautomation/tests/ui/sumOfTransactions.spec.ts",
+                            "column": 67,
+                            "line": 46
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeVisible\u001b[2m()\u001b[22m\nCall log:\n  \u001b[2m- expect.toBeVisible with timeout 50000ms\u001b[22m\n\u001b[2m  - waiting for locator('h2.sub-header').filter({ hasText: 'NaN' })\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  - waiting for locator('h2.sub-header').filter({ hasText: 'NaN' })\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\u001b[2m  -   unexpected value \"hidden\"\u001b[22m\n\n\n\u001b[90m   at \u001b[39mui/sumOfTransactions.spec.ts:46\n\n\u001b[0m \u001b[90m 44 |\u001b[39m     n2 \u001b[33m=\u001b[39m \u001b[33mNumber\u001b[39m(sum2\u001b[33m?\u001b[39m\u001b[33m.\u001b[39mtoString()\u001b[33m.\u001b[39mreplace(\u001b[32m'$'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m''\u001b[39m))\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 45 |\u001b[39m     \u001b[36mlet\u001b[39m sum \u001b[33m=\u001b[39m getSum(n1\u001b[33m,\u001b[39m n2)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 46 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m'h2.sub-header'\u001b[39m\u001b[33m,\u001b[39m { hasText\u001b[33m:\u001b[39m sum }))\u001b[33m.\u001b[39mtoBeVisible()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                                                                   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 47 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m'h2.sub-header'\u001b[39m))\u001b[33m.\u001b[39mtoContainText(sum)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 48 |\u001b[39m   })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 49 |\u001b[39m\u001b[0m\n\n\u001b[2m    at /Users/technoidentity/Documents/GitHub/playwrightautomation/tests/ui/sumOfTransactions.spec.ts:46:67\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:56:59.463Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/ui-sumOfTransactions-Verifying-sum-of-Transact-5c697-Tag-and-compare-with-Total-revenue-in-dashboard-chromium/video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/ui-sumOfTransactions-Verifying-sum-of-Transact-5c697-Tag-and-compare-with-Total-revenue-in-dashboard-chromium/trace.zip"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/ui-sumOfTransactions-Verifying-sum-of-Transact-5c697-Tag-and-compare-with-Total-revenue-in-dashboard-chromium/test-failed-1.png"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/technoidentity/Documents/GitHub/playwrightautomation/tests/ui/sumOfTransactions.spec.ts",
+                        "column": 67,
+                        "line": 46
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "01d07a9e65e71079b3e8-7c7a8f5d9f04e8252ebe",
+              "file": "ui/sumOfTransactions.spec.ts",
+              "line": 30,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ui/titlesInLeftContainer.spec.ts",
+      "file": "ui/titlesInLeftContainer.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Verify the  titles in left container",
+          "file": "ui/titlesInLeftContainer.spec.ts",
+          "line": 10,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Verify Safety Performance title",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 4607,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:57:09.357Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/ui-titlesInLeftContainer-Verify-the-titles-in-left-container-Verify-Safety-Performance-title-chromium/video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/ui-titlesInLeftContainer-Verify-the-titles-in-left-container-Verify-Safety-Performance-title-chromium/trace.zip"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/ui-titlesInLeftContainer-Verify-the-titles-in-left-container-Verify-Safety-Performance-title-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1412465515d60cd11f15-c4e80e9b33de1c0cdc0f",
+              "file": "ui/titlesInLeftContainer.spec.ts",
+              "line": 11,
+              "column": 9
+            },
+            {
+              "title": "Verify Transaction & Revenue Lifecycle title",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 4597,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:57:09.907Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/ui-titlesInLeftContainer-Verify-the-titles-in--230a6-iner-Verify-Transaction-Revenue-Lifecycle-title-chromium/video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/ui-titlesInLeftContainer-Verify-the-titles-in--230a6-iner-Verify-Transaction-Revenue-Lifecycle-title-chromium/trace.zip"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/ui-titlesInLeftContainer-Verify-the-titles-in--230a6-iner-Verify-Transaction-Revenue-Lifecycle-title-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1412465515d60cd11f15-688ab2402cc1506d6039",
+              "file": "ui/titlesInLeftContainer.spec.ts",
+              "line": 17,
+              "column": 9
+            },
+            {
+              "title": "Verify Service Performance title",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 8563,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:57:13.965Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/ui-titlesInLeftContainer-Verify-the-titles-in-left-container-Verify-Service-Performance-title-chromium/video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/ui-titlesInLeftContainer-Verify-the-titles-in-left-container-Verify-Service-Performance-title-chromium/trace.zip"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/ui-titlesInLeftContainer-Verify-the-titles-in-left-container-Verify-Service-Performance-title-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1412465515d60cd11f15-cd54258f610ce089d074",
+              "file": "ui/titlesInLeftContainer.spec.ts",
+              "line": 23,
+              "column": 9
+            },
+            {
+              "title": "Verify FINANCIAL PERFORMANCE title",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 9676,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:57:14.509Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/ui-titlesInLeftContainer-Verify-the-titles-in-left-container-Verify-FINANCIAL-PERFORMANCE-title-chromium/video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/ui-titlesInLeftContainer-Verify-the-titles-in-left-container-Verify-FINANCIAL-PERFORMANCE-title-chromium/trace.zip"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/ui-titlesInLeftContainer-Verify-the-titles-in-left-container-Verify-FINANCIAL-PERFORMANCE-title-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1412465515d60cd11f15-2ba69e9c35d063317aee",
+              "file": "ui/titlesInLeftContainer.spec.ts",
+              "line": 29,
+              "column": 9
+            },
+            {
+              "title": "Verify LICENSE PLATE IMAGE TRANSACTIONS title",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 12707,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:57:22.529Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/ui-titlesInLeftContainer-Verify-the-titles-in--fa24f-r-Verify-LICENSE-PLATE-IMAGE-TRANSACTIONS-title-chromium/video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/ui-titlesInLeftContainer-Verify-the-titles-in--fa24f-r-Verify-LICENSE-PLATE-IMAGE-TRANSACTIONS-title-chromium/trace.zip"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/ui-titlesInLeftContainer-Verify-the-titles-in--fa24f-r-Verify-LICENSE-PLATE-IMAGE-TRANSACTIONS-title-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1412465515d60cd11f15-af99c7ffaa005caa84e8",
+              "file": "ui/titlesInLeftContainer.spec.ts",
+              "line": 35,
+              "column": 9
+            },
+            {
+              "title": "Verify EZ TAG FULFILLMENT PERFORMANCE title",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 13119,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:57:24.186Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/ui-titlesInLeftContainer-Verify-the-titles-in--b8dce-ner-Verify-EZ-TAG-FULFILLMENT-PERFORMANCE-title-chromium/video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/ui-titlesInLeftContainer-Verify-the-titles-in--b8dce-ner-Verify-EZ-TAG-FULFILLMENT-PERFORMANCE-title-chromium/trace.zip"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/ui-titlesInLeftContainer-Verify-the-titles-in--b8dce-ner-Verify-EZ-TAG-FULFILLMENT-PERFORMANCE-title-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1412465515d60cd11f15-1dd159d502db64cea004",
+              "file": "ui/titlesInLeftContainer.spec.ts",
+              "line": 41,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ui/transactions.spec.ts",
+      "file": "ui/transactions.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Verify",
+          "file": "ui/transactions.spec.ts",
+          "line": 10,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Transactions History",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "status": "failed",
+                      "duration": 56212,
+                      "error": {
+                        "message": "\u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected string: \u001b[32m\"Previous Month\"\u001b[39m\nReceived string: \u001b[31m\"\"\u001b[39m\nCall log:\n  \u001b[2m- expect.toContainText with timeout 50000ms\u001b[22m\n\u001b[2m  - waiting for locator('.card-title.fw-bold.ps-1.d-flex > div> div').first()\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  - waiting for locator('.card-title.fw-bold.ps-1.d-flex > div> div').first()\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected string: \u001b[32m\"Previous Month\"\u001b[39m\nReceived string: \u001b[31m\"\"\u001b[39m\nCall log:\n  \u001b[2m- expect.toContainText with timeout 50000ms\u001b[22m\n\u001b[2m  - waiting for locator('.card-title.fw-bold.ps-1.d-flex > div> div').first()\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  - waiting for locator('.card-title.fw-bold.ps-1.d-flex > div> div').first()\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\n    at /Users/technoidentity/Documents/GitHub/playwrightautomation/tests/ui/transactions.spec.ts:15:85"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/technoidentity/Documents/GitHub/playwrightautomation/tests/ui/transactions.spec.ts",
+                            "column": 85,
+                            "line": 15
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoContainText\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nExpected string: \u001b[32m\"Previous Month\"\u001b[39m\nReceived string: \u001b[31m\"\"\u001b[39m\nCall log:\n  \u001b[2m- expect.toContainText with timeout 50000ms\u001b[22m\n\u001b[2m  - waiting for locator('.card-title.fw-bold.ps-1.d-flex > div> div').first()\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  - waiting for locator('.card-title.fw-bold.ps-1.d-flex > div> div').first()\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\u001b[2m  -   unexpected value \"undefined\"\u001b[22m\n\n\n\u001b[90m   at \u001b[39mui/transactions.spec.ts:15\n\n\u001b[0m \u001b[90m 13 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 14 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m'div#dasboard-container'\u001b[39m))\u001b[33m.\u001b[39mtoContainText(\u001b[32m'Transaction & Revenue Lifecycle'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 15 |\u001b[39m     \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mlocator(\u001b[32m'.card-title.fw-bold.ps-1.d-flex > div> div>>nth=0'\u001b[39m))\u001b[33m.\u001b[39mtoContainText(\u001b[32m'Previous Month'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                                                                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 16 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 17 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'div#dasboard-container'\u001b[39m\u001b[33m,\u001b[39m { has\u001b[33m:\u001b[39m page\u001b[33m.\u001b[39mgetByText(\u001b[32m'Transaction & Revenue Lifecycle'\u001b[39m) })\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 18 |\u001b[39m\u001b[0m\n\n\u001b[2m    at /Users/technoidentity/Documents/GitHub/playwrightautomation/tests/ui/transactions.spec.ts:15:85\u001b[22m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:57:32.249Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/ui-transactions-Verify-Transactions-History-chromium/video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/ui-transactions-Verify-Transactions-History-chromium/trace.zip"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/ui-transactions-Verify-Transactions-History-chromium/test-failed-1.png"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/technoidentity/Documents/GitHub/playwrightautomation/tests/ui/transactions.spec.ts",
+                        "column": 85,
+                        "line": 15
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "4e12455acac193e75c04-a3ccc060114992aad537",
+              "file": "ui/transactions.spec.ts",
+              "line": 11,
+              "column": 7
+            },
+            {
+              "title": "Verify the presence of all Cards in Transaction & Revenue Lifecycle",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 9541,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:57:35.240Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/ui-transactions-Verify-Verify-the-presence-of-all-Cards-in-Transaction-Revenue-Lifecycle-chromium/video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/ui-transactions-Verify-Verify-the-presence-of-all-Cards-in-Transaction-Revenue-Lifecycle-chromium/trace.zip"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/ui-transactions-Verify-Verify-the-presence-of-all-Cards-in-Transaction-Revenue-Lifecycle-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "4e12455acac193e75c04-cc67761c10e56afa6722",
+              "file": "ui/transactions.spec.ts",
+              "line": 30,
+              "column": 7
+            },
+            {
+              "title": "",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "failed",
+                      "duration": 757,
+                      "error": {
+                        "message": "page.goto: Navigation failed because page was closed!\n=========================== logs ===========================\nnavigating to \"https://hctra-dashboard.netlify.app/\", waiting until \"load\"\n============================================================",
+                        "stack": "page.goto: Navigation failed because page was closed!\n=========================== logs ===========================\nnavigating to \"https://hctra-dashboard.netlify.app/\", waiting until \"load\"\n============================================================\n    at login (/Users/technoidentity/Documents/GitHub/playwrightautomation/utils/helpers.ts:9:14)\n    at /Users/technoidentity/Documents/GitHub/playwrightautomation/tests/ui/transactions.spec.ts:6:8"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "/Users/technoidentity/Documents/GitHub/playwrightautomation/utils/helpers.ts",
+                            "column": 14,
+                            "line": 9
+                          },
+                          "message": "page.goto: Navigation failed because page was closed!\n=========================== logs ===========================\nnavigating to \"https://hctra-dashboard.netlify.app/\", waiting until \"load\"\n============================================================\n\n\u001b[90m   at \u001b[39m../utils/helpers.ts:9\n\n\u001b[0m \u001b[90m  7 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  8 |\u001b[39m \u001b[36mexport\u001b[39m \u001b[36masync\u001b[39m \u001b[36mfunction\u001b[39m login(page) {\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  9 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[33mENV\u001b[39m\u001b[33m.\u001b[39m\u001b[33mBASE_UI_URL\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 10 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'input[name=\"username\"]'\u001b[39m)\u001b[33m.\u001b[39mfill(\u001b[33mENV\u001b[39m\u001b[33m.\u001b[39m\u001b[33mUSERNAME\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 11 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mlocator(\u001b[32m'input[name=\"password\"]'\u001b[39m)\u001b[33m.\u001b[39mfill(\u001b[33mENV\u001b[39m\u001b[33m.\u001b[39m\u001b[33mPASSWORD\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 12 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgetByRole(\u001b[32m'button'\u001b[39m\u001b[33m,\u001b[39m { name\u001b[33m:\u001b[39m \u001b[32m'Login'\u001b[39m })\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\u001b[0m\n\n\u001b[2m    at login (/Users/technoidentity/Documents/GitHub/playwrightautomation/utils/helpers.ts:9:14)\u001b[22m\n\u001b[2m    at /Users/technoidentity/Documents/GitHub/playwrightautomation/tests/ui/transactions.spec.ts:6:8\u001b[22m"
+                        },
+                        {
+                          "message": "\u001b[31mTest timeout of 500000ms exceeded while tearing down \"context\".\u001b[39m"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:57:37.309Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/ui-transactions-Verify--chromium/video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/ui-transactions-Verify--chromium/trace.zip"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/ui-transactions-Verify--chromium/test-failed-1.png"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "/Users/technoidentity/Documents/GitHub/playwrightautomation/utils/helpers.ts",
+                        "column": 14,
+                        "line": 9
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "4e12455acac193e75c04-993abacdbab632640fb9",
+              "file": "ui/transactions.spec.ts",
+              "line": 51,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ui/verifyfiscalyear.spec.ts",
+      "file": "ui/verifyfiscalyear.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Verify",
+          "file": "ui/verifyfiscalyear.spec.ts",
+          "line": 10,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Verify Fiscal year in Safety Performance",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "status": "passed",
+                      "duration": 7421,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:57:40.144Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/ui-verifyfiscalyear-Verify-Verify-Fiscal-year-in-Safety-Performance-chromium/video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/ui-verifyfiscalyear-Verify-Verify-Fiscal-year-in-Safety-Performance-chromium/trace.zip"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/ui-verifyfiscalyear-Verify-Verify-Fiscal-year-in-Safety-Performance-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8799012cd2fd26dfa3b3-b2810133834a5f5e6f57",
+              "file": "ui/verifyfiscalyear.spec.ts",
+              "line": 11,
+              "column": 7
+            },
+            {
+              "title": "Verify Fiscal year in Transaction & Revenue Lifecycle",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 6249,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:57:44.784Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/ui-verifyfiscalyear-Verify-Verify-Fiscal-year-in-Transaction-Revenue-Lifecycle-chromium/video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/ui-verifyfiscalyear-Verify-Verify-Fiscal-year-in-Transaction-Revenue-Lifecycle-chromium/trace.zip"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/ui-verifyfiscalyear-Verify-Verify-Fiscal-year-in-Transaction-Revenue-Lifecycle-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8799012cd2fd26dfa3b3-46de1bedb6d4930250d8",
+              "file": "ui/verifyfiscalyear.spec.ts",
+              "line": 17,
+              "column": 7
+            },
+            {
+              "title": "Verify Fiscal year in Service Performance",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [
+                    {
+                      "type": "skip"
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:57:47.997Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "8799012cd2fd26dfa3b3-4e43d185cfd111ec485a",
+              "file": "ui/verifyfiscalyear.spec.ts",
+              "line": 23,
+              "column": 8
+            },
+            {
+              "title": "Verify Fiscal year in FINANCIAL PERFORMANCE",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [
+                    {
+                      "type": "skip"
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:57:48.000Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "8799012cd2fd26dfa3b3-0de19b45a46a915a77ac",
+              "file": "ui/verifyfiscalyear.spec.ts",
+              "line": 29,
+              "column": 8
+            },
+            {
+              "title": "Verify Fiscal year in LICENSE PLATE IMAGE TRANSACTIONS",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "status": "passed",
+                      "duration": 5550,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:57:48.005Z",
+                      "attachments": [
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/ui-verifyfiscalyear-Verify-Verify-Fiscal-year-in-LICENSE-PLATE-IMAGE-TRANSACTIONS-chromium/video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/ui-verifyfiscalyear-Verify-Verify-Fiscal-year-in-LICENSE-PLATE-IMAGE-TRANSACTIONS-chromium/trace.zip"
+                        },
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/technoidentity/Documents/GitHub/playwrightautomation/test-results/ui-verifyfiscalyear-Verify-Verify-Fiscal-year-in-LICENSE-PLATE-IMAGE-TRANSACTIONS-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "8799012cd2fd26dfa3b3-135de16ca678b34b3d04",
+              "file": "ui/verifyfiscalyear.spec.ts",
+              "line": 35,
+              "column": 7
+            },
+            {
+              "title": "Verify Fiscal year in EZ TAG FULFILLMENT PERFORMANCE",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 500000,
+                  "annotations": [
+                    {
+                      "type": "skip"
+                    }
+                  ],
+                  "expectedStatus": "skipped",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "skipped",
+                      "duration": 0,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2023-03-15T11:57:51.035Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "skipped"
+                }
+              ],
+              "id": "8799012cd2fd26dfa3b3-2cc6f74d88902a7f67c1",
+              "file": "ui/verifyfiscalyear.spec.ts",
+              "line": 41,
+              "column": 8
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": []
+}
