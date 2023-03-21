@@ -1,0 +1,21 @@
+{
+  "name": "strictappplaywright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "npx playwright install",
+    "env:dev": "cross-env test_env=dev npx playwright test --workers 4",
+    "env:stage": "cross-env test_env=stage npx playwright test --workers 4"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.30.0",
+    "cross-env": "^7.0.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
