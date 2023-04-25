@@ -33,7 +33,7 @@ Folders Description:
     For example helpers.ts contains re-usable functions like login, getAuthenticationToken, getSum methods which  can be called directly.
 
 #How to execute:
-For Dev environment: c
+For Dev environment: npm run env:dev
 
 Similarly for other environments, configuration is done in Scripts section in package.json.
 
